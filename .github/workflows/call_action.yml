@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: OWNER/hello-world-composite-action@SHA
+        uses: Solidify-Templates/composite-action-docker@88109c28c01ac980af23c687f67f3c1567742447
         with:
           who-to-greet: 'Mona the Octocat'
       - run: echo random-number "$RANDOM_NUMBER"
